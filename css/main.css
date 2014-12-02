@@ -1,6 +1,6 @@
 /********************************************************************************************
 
-Breathe v1 by David Lartey (Jason.sc) 
+Breathe v1 by David Lartey
 
 *********************************************************************************************/
 
@@ -344,9 +344,16 @@ table {
 	/* Projects */
 	.projects {
 		margin: 3em 0;
-		text-align: center;
 	}
-
+	.projects h3 {
+		text-align: left;
+	}
+	.projects a {
+		text-decoration: none;
+		border-width: 0 0 1px 0;
+		border-style: none none solid none;
+		border-color: #c0c0c0;
+	}
 	/* footer text */
 	.footer-introduction {
 		margin-top: 2em;
@@ -359,7 +366,9 @@ table {
 	    color: #333;
 	    margin-top: 0px;
 	}
-	.footer-introduction a { 
+	.footer-introduction a,
+	.footer-introduction > h1 > a { 
+		font-size: 30px;
 		color: #333;
 		border-bottom: 1px solid #c0c0c0;
 	}
