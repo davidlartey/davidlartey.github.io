@@ -42,25 +42,186 @@ that you will bear my cross.  &lt;/p&gt;
 *** My morning alarm tones.&lt;/p&gt;</content>
   </entry>
   <entry xml:base="http://davidlartey.com/rss">
-    <title type="text">About Me</title>
-    <id>http://davidlartey.com/blog/about/</id>
-    <updated>2014-09-22T00:00:00Z</updated>
-    <published>2014-09-22T00:00:00Z</published>
-    <link href="http://davidlartey.com/blog/about/" />
+    <title type="text">On Conformity</title>
+    <id>http://davidlartey.com/blog/on-conformity/</id>
+    <updated>2014-12-02T00:00:00Z</updated>
+    <published>2014-12-02T00:00:00Z</published>
+    <link href="http://davidlartey.com/blog/on-conformity/" />
     <author>
       <name>David Lartey</name>
     </author>
-    <content type="html">&lt;p&gt;Hi, I'm David Lartey.&lt;/p&gt;
-&lt;p&gt;I was born in &lt;a href=&quot;&quot;&gt;1991&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I'm from &lt;a href=&quot;http://en.wikipedia.org/wiki/Prampram&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Prampram&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Ghana&quot; title=&quot;Ghana - Wikipedia, the free encyclopedia&quot;&gt;Ghana&lt;/a&gt;, but spent the first three-quarters of my life in &lt;a href=&quot;https://en.wikipedia.org/wiki/Bonny,_Nigeria&quot;&gt;Bonny&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Nigeria&quot; target=&quot;_blank&quot; title=&quot;Nigeria - Wikipedia, the free encyclopedia&quot;&gt;Nigeria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I believe in God and I'm learning to live like Jesus Christ.&lt;/p&gt;
-&lt;p&gt;I am a minimalist at heart.&lt;/p&gt;
-&lt;p&gt;I am a computer programmer.&lt;/p&gt;
-&lt;p&gt;I like creating things with &lt;a href=&quot;http://davidlartey.github.io&quot; target=&quot;_blank&quot; title=&quot;My projects&quot;&gt;code&lt;/a&gt;, occasionally with words: this blog, &lt;a href=&quot;https://soundcloud.com/davidlartey&quot; target=&quot;_blank&quot; title=&quot;My SoundCloud profile&quot;&gt;soundcloud&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I &lt;a href=&quot;#&quot; title=&quot;My reading list&quot;&gt;read&lt;/a&gt;, listen to new songs, watch &lt;a href=&quot;https://arsenal.com/home&quot; title=&quot;The Official Website of Arsenal Football Club&quot;&gt;Arsenal&lt;/a&gt; and daydream.&lt;/p&gt;
-&lt;p&gt;Thanks.&lt;/p&gt;
-&lt;h2&gt;Colophon&lt;/h2&gt;
-&lt;p&gt;This blog is built with &lt;a href=&quot;http://github.com/davidlartey/flassgee&quot; target=&quot;_blank&quot; title=&quot;Welcome to an Easier Way to Blog&quot;&gt;FlaSSGee&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Zen Habits' &lt;a href=&quot;http://zenhabits.net/theme/&quot; target=&quot;_blank&quot;&gt;zh2&lt;/a&gt; was used for the site's look.&lt;/p&gt;</content>
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;The opposite for courage is not cowardice, it is conformity. Even a dead fish can go with the flow.&lt;br /&gt;
+ ~ Jim Hightower&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+  </entry>
+  <entry xml:base="http://davidlartey.com/rss">
+    <title type="text">Contact</title>
+    <id>http://davidlartey.com/blog/contact/</id>
+    <updated>2014-12-01T00:00:00Z</updated>
+    <published>2014-12-01T00:00:00Z</published>
+    <link href="http://davidlartey.com/blog/contact/" />
+    <author>
+      <name>David Lartey</name>
+    </author>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&quot;mailto:me@davidlartey.com&quot;&gt;me@davidlartey.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phone:&lt;/strong&gt; +233-(0)-547051251&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skype:&lt;/strong&gt; gbebilarteydavid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Online Profiles&lt;/h2&gt;
+&lt;h3&gt;Social&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.facebook.com/dbilovd&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/DavidLartey&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://plus.google.com/+DavidLarteyGbebi&quot; target=&quot;_blank&quot;&gt;Google+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.pinterest.com/davidlartey/&quot; target=&quot;_blank&quot;&gt;Pinterest&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/davidlartey&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bitbucket.org/davidlartey&quot; target=&quot;_blank&quot;&gt;BitBucket&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/users/1818092/david-lartey&quot; target=&quot;_blank&quot;&gt;StackOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://askubuntu.com/users/116015/david-lartey&quot; target=&quot;_blank&quot;&gt;AskUbuntu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://launchpad.net/~davidlartey237f&quot; target=&quot;_blank&quot;&gt;Launchpad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.drupal.org/u/davidlartey&quot; target=&quot;_blank&quot;&gt;Drupal.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://profiles.wordpress.org/davidlartey&quot; target=&quot;_blank&quot;&gt;Wordpress.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Music&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://soundcloud.com/davidlartey&quot; target=&quot;_blank&quot;&gt;Soundcloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://grooveshark.com/#!/davidlartey&quot; target=&quot;_blank&quot;&gt;GrooveShark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.last.fm/user/davidlartey&quot; target=&quot;_blank&quot;&gt;LastFM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Brain Things&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/User:Davidlartey&quot; target=&quot;_blank&quot;&gt;Wikipedia.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.quora.com/David-Lartey&quot; target=&quot;_blank&quot;&gt;Quora&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://creativemornings.com/people/davidlartey&quot; target=&quot;_blank&quot;&gt;CreativeMornings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry xml:base="http://davidlartey.com/rss">
+    <title type="text">Meditate</title>
+    <id>http://davidlartey.com/blog/meditate/</id>
+    <updated>2014-11-18T00:00:00Z</updated>
+    <published>2014-11-18T00:00:00Z</published>
+    <link href="http://davidlartey.com/blog/meditate/" />
+    <author>
+      <name>David Lartey</name>
+    </author>
+    <content type="html">&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When you think of a problem over and over again in your mind, that's called worry. When you think about God's word over and over again in your mind, that's called meditation. If you know how to worry, you already know how to meditate! You just need to switch your attention from your problems to Bible verses. The more you meditate on God's Word, the less you will have to worry about.&lt;br /&gt;
+~ The Purpose Driven Life - Rick Warren&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NB: This is a repost from one of my old blogs.&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry xml:base="http://davidlartey.com/rss">
+    <title type="text">Venture</title>
+    <id>http://davidlartey.com/blog/venture/</id>
+    <updated>2014-11-18T00:00:00Z</updated>
+    <published>2014-11-18T00:00:00Z</published>
+    <link href="http://davidlartey.com/blog/venture/" />
+    <author>
+      <name>David Lartey</name>
+    </author>
+    <content type="html">&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&quot;Vision is not enough; it must be combined with venture. It is not enough to stare up the steps; we must step up the stairs.&quot; &lt;br /&gt;
+~ Vaclav Havel&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I came across this quote over the weekend as I was &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;reading&lt;/a&gt; Getting Things Done by David Allen.&lt;/p&gt;
+&lt;p&gt;Venturing adds life to a vision. It stops a vision from being just that. It makes it reality.&lt;/p&gt;
+&lt;p&gt;To venture means to do something that brings you closer to that place you've seen in your vision. It isn't always the biggest of actions you take.&lt;/p&gt;
+&lt;p&gt;Venturing is giving a smile because you are looking forward to a world filled with love; fixing a neighbour's computer because you want to help the world through technology; not desiring those clothes because you want to be a minimalist or even arranging the contents of your drawer at work because you want to be more organized.&lt;/p&gt;
+&lt;p&gt;In everything you do today or tomorrow or the next, make sure you do something that is a step towards your vision. &lt;strong&gt;Give because love is not enough; work because faith is not enough and venture because vision is not enough.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NB: This is a repost from one of my old blogs.&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry xml:base="http://davidlartey.com/rss">
+    <title type="text">Doubt</title>
+    <id>http://davidlartey.com/blog/doubt/</id>
+    <updated>2014-11-18T00:00:00Z</updated>
+    <published>2014-11-18T00:00:00Z</published>
+    <link href="http://davidlartey.com/blog/doubt/" />
+    <author>
+      <name>David Lartey</name>
+    </author>
+    <content type="html">&lt;p&gt;A few decades ago people believed that the earth was flat. That belief helped them stay together because everyone was scared of falling off the earth.&lt;br /&gt;
+Fast forward a few more years and evidence became available that the earth wasn't flat but people still held on to their old beliefs. And the ones that dared to accept this new knowledge had to pay dearly. Why? Because, they couldn't &lt;strong&gt;doubt&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Doubt makes you think out of the box. It delivers you from ignorance. It gives us breathtaking inventions. In fact, without it there'll be nothing new because we'd be too satisfied with the old.&lt;/p&gt;
+&lt;p&gt;Fast forward few more years to the turn of the century and this time everyone believed we had reached the end in what phones would be able to do. Well, that was also true until Steve Jobs doubted it all and we know how it went.&lt;/p&gt;
+&lt;p&gt;Even in Jesus' time, the difference between those that were impacted by His message and those usually referred to as &quot;teachers of the law&quot; who weren't was doubt. One group doubted what they knew - if they even knew - while the other always judged His message in the light of what they knew. And again we know how that went too.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Doubt can sometimes make you better&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NB: This is a repost from one of my old blogs.&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry xml:base="http://davidlartey.com/rss">
+    <title type="text">Zero-Sum</title>
+    <id>http://davidlartey.com/blog/zero-sum/</id>
+    <updated>2014-11-18T00:00:00Z</updated>
+    <published>2014-11-18T00:00:00Z</published>
+    <link href="http://davidlartey.com/blog/zero-sum/" />
+    <author>
+      <name>David Lartey</name>
+    </author>
+    <content type="html">&lt;p&gt;A few weeks ago I watched an interview Mark Zuckerberg gave at a conference and something stood out for me. He said he believes Facebook is not in a &quot;zero-sum&quot; system.&lt;/p&gt;
+&lt;p&gt;Whats a zero-sum system? Its a system where everything must always add up to zero. An increase in one side must result in or be a result of a decrease on the other side of the system. For example, in a company with a fixed number of employees, for someone to get a promotion, some other person needs to be demoted or worse still, fired. So what he was saying is that for Facebook to &quot;succeed&quot; no other company has to fail.&lt;/p&gt;
+&lt;p&gt;Life itself isn't a zero-sum system. You might say the example I gave above happens several times in life. Yes, in life people get fired and people get employed but when someone gets fired they sometimes end up finding better jobs that weren't results of some other person being fired.&lt;/p&gt;
+&lt;p&gt;I also think the people and businesses that are managed with this mentality of life not being a zero-sum system are the ones that end up as successful.&lt;/p&gt;
+&lt;p&gt;All I am trying to say is that no one has to fall for you to stand, no one has to fail for you to succeed. And you don't have to fall for someone to stand, or fail for someone to succeed. So live your life, do what you have to do and leave the rest to God. &lt;strong&gt;#LifeIsBeautiful&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NB: This is a repost from one of my old blogs.&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry xml:base="http://davidlartey.com/rss">
+    <title type="text">No One Cares</title>
+    <id>http://davidlartey.com/blog/no_one_cares/</id>
+    <updated>2014-11-18T00:00:00Z</updated>
+    <published>2014-11-18T00:00:00Z</published>
+    <link href="http://davidlartey.com/blog/no_one_cares/" />
+    <author>
+      <name>David Lartey</name>
+    </author>
+    <content type="html">&lt;p&gt;Dude, let's face reality:&lt;br /&gt;
+No one cares about what you want to do.&lt;br /&gt;
+No one cares about the songs you would write one day or you've written and not sang to anyone.&lt;br /&gt;
+No one cares about the products you will be building or how much impact it would have on the world.&lt;br /&gt;
+No one cares about the relationships you will have or how beautiful you future girlfriend will be.&lt;br /&gt;
+No one cares about what you'll offer them sometime in the future.&lt;br /&gt;
+In fact, no one cares about any of your journeys until they see you at the destination. People, me, you, them, everybody cares about NOW!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So for the umpteenth time, stop talking and start doing. Except off course you are at the talking stage of your doings.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NB: This is a repost from one of my old blogs.&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry xml:base="http://davidlartey.com/rss">
+    <title type="text">Define</title>
+    <id>http://davidlartey.com/blog/define/</id>
+    <updated>2014-11-07T00:00:00Z</updated>
+    <published>2014-11-07T00:00:00Z</published>
+    <link href="http://davidlartey.com/blog/define/" />
+    <author>
+      <name>David Lartey</name>
+    </author>
+    <content type="html">&lt;p&gt;At the barber shop today someone said &quot;God is the only true Christian.&quot; I asked myself about how the speaker defines Christianity. I don't know how he defines it but from his speech you could tell its all about Perfection for him. Yes he is correct. God is the only one that can archieve a perfect perfection - at least on this side of eternity. However, his definition still fails.&lt;/p&gt;
+&lt;p&gt;God is perfect, we are broken. But His perfect love is making us whole. That for me is all what Christianity is about.&lt;/p&gt;
+&lt;p&gt;I also think his perspective has been shaped by the behaviour of another 'Christian' around him. Because how we define our faith shapes how we live. And how we live shapes people's perspective of us. And that shapes what how they define our faith. And if its worthy enough, it becomes their faith too.&lt;/p&gt;
+&lt;p&gt;God's perfection should draw people closer to Him not repel them. People should look at us and see a perfect God that takes broken and imperfect beings and perpares them for perfection in eternity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Let's be sights of God's love to our brethren.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NB: This is a repost from one of my old blogs.&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry xml:base="http://davidlartey.com/rss">
+    <title type="text">Better</title>
+    <id>http://davidlartey.com/blog/better/</id>
+    <updated>2014-11-04T00:00:00Z</updated>
+    <published>2014-11-04T00:00:00Z</published>
+    <link href="http://davidlartey.com/blog/better/" />
+    <author>
+      <name>David Lartey</name>
+    </author>
+    <content type="html">&lt;p&gt;During a conversation with a friend about rest rooms, he made a comment along the lines of &quot;I don't ever use public rest rooms because I don't know who used it last and how they left it.&quot;&lt;/p&gt;
+&lt;p&gt;But what if everyone who uses the public rest rooms leaves them better than when they came in? How pleasant and healthy would it be? How many more people will stop being afraid of using them?&lt;br /&gt;
+What if I leave every room I enter better than when I came in?&lt;br /&gt;
+What if I leave the life of every person I meet better than the when I met them?&lt;br /&gt;
+...  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What if we left people, places and things better than the way they were when they came into our lives?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NB: This is an edited repost from one of my old blogs.&lt;/strong&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
