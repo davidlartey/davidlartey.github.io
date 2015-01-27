@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Recent Articles</title>
+  <id>http://davidlartey.com/rss</id>
+  <updated>2014-12-03T00:00:00Z</updated>
+  <link href="http://davidlartey.com/" />
+  <link href="http://davidlartey.com/rss" rel="self" />
+  <generator>Werkzeug</generator>
+  <entry xml:base="http://davidlartey.com/rss">
+    <title type="text">2014 Gratitude: Music</title>
+    <id>http://davidlartey.com/blog/2014-gratitude-music/</id>
+    <updated>2014-12-03T00:00:00Z</updated>
+    <published>2014-12-03T00:00:00Z</published>
+    <link href="http://davidlartey.com/blog/2014-gratitude-music/" />
+    <author>
+      <name>David Lartey</name>
+    </author>
+    <content type="html">&lt;p&gt;It has been another year of great music, this is me showing my gratitude for them. Especially these few.&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Rivers_in_the_Wasteland&quot; target=&quot;_blank&quot;&gt;Rivers in the Wasteland&lt;/a&gt; ~ NEEDTOBREATHE&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I'm the first one in line to die when the calvary comes  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I first heard &lt;a href=&quot;https://www.youtube.com/watch?v=MzuEFN-blcw&quot; target=&quot;_blank&quot;&gt;Difference Maker&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=tMms-rlV2hk&quot; target=&quot;_blank&quot;&gt;Multiplied&lt;/a&gt; but ended up loving every track on the album.&lt;/p&gt;
+&lt;p&gt;Through out the year, the album has been a source of rememberance of God's love and presence during trying times - even when I'm unworthy of it.&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Anomaly_(Lecrae_album)&quot; target=&quot;_blank&quot;&gt;Anomaly&lt;/a&gt; ~ Lecrae&lt;/h3&gt;
+&lt;p&gt;If you've been called weird before, this album is for you. For me, the album is about &quot;facing your fears and being that someone different.&quot;&lt;/p&gt;
+&lt;p&gt;You don't always see people coming out with the fears they have - including me, I've got loads of them - so when someone does, it's reassuring. Not to gain satisfaction but inspiration knowing someone is/has been on this journey before.&lt;/p&gt;
+&lt;p&gt;One fear he touched on is that of &lt;em&gt;&lt;a href=&quot;https://www.biblegateway.com/passage/?search=1+Corinthians+9:27&quot; target=&quot;_blank&quot;&gt;pushin' people right over the ledge [but] buckl[ing] under pressure.&lt;/a&gt;&lt;/em&gt; That fear of doing everything right but make a mistake that negates all. I pray - as he does - that God gives me the grace and strength to make it to the end.  &lt;/p&gt;
+&lt;p&gt;I am an #Anomaly, and &lt;a href=&quot;https://twitter.com/hashtag/Anomaly?src=hash&amp;mode=photos&quot; target=&quot;_blank&quot;&gt;I'm not alone&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https:www.youtube.com/watch?v=dZ49_ZFFY88&quot; target=&quot;_blank&quot;&gt;Amazing Grace&lt;/a&gt; ~ Phil Wickham&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is amazing Grace&lt;br /&gt;
+This is unfailing love&lt;br /&gt;
+That You will take my place&lt;br /&gt;
+that you will bear my cross.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Those lines say it all.&lt;/p&gt;
+&lt;p&gt;Other albums worth mentioning are &lt;a href=&quot;https://en.wikipedia.org/wiki/Native_(album)&quot; target=&quot;_blank&quot;&gt;Native&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Gravity_(Lecrae_album)&quot; target=&quot;_blank&quot;&gt;Gravity&lt;/a&gt;, &lt;a href=&quot;http://noisetrade.com/deeperwell/deeper-well&quot; target=&quot;_blank&quot;&gt;Deeper Well&lt;/a&gt;* and &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Hunger_Games:_Catching_Fire_%E2%80%93_Original_Motion_Picture_Soundtrack&quot; target=&quot;_blank&quot;&gt;The Hunger Games: Catching Fire (Soundtrack)&lt;/a&gt;**. I also listened to quite a lot of &lt;a href=&quot;http://joshgarrels.com/&quot; target=&quot;_blank&quot;&gt;Josh Garrels&lt;/a&gt;, &lt;a href=&quot;http://www.mandisaofficial.com&quot; target=&quot;_blank&quot;&gt;Mandisa&lt;/a&gt;***, &lt;a href=&quot;http://www.francescamusic.com&quot; target=&quot;_blank&quot;&gt;Francesca Battistelli&lt;/a&gt;, etc.&lt;/p&gt;
+&lt;p&gt;I'm grateful to every creative that made any song I heard this year possible. God has used their efforts to make this year what it has been for me. I pray God gives them grace for even more in 2015.&lt;/p&gt;
+&lt;p&gt;* My 'spiritual' album of the year.&lt;br /&gt;
+** This album rekindled my love for movie soundtracks.&lt;br /&gt;
+*** My morning alarm tones.&lt;/p&gt;</content>
+  </entry>
+  <entry xml:base="http://davidlartey.com/rss">
+    <title type="text">About Me</title>
+    <id>http://davidlartey.com/blog/about/</id>
+    <updated>2014-09-22T00:00:00Z</updated>
+    <published>2014-09-22T00:00:00Z</published>
+    <link href="http://davidlartey.com/blog/about/" />
+    <author>
+      <name>David Lartey</name>
+    </author>
+    <content type="html">&lt;p&gt;Hi, I'm David Lartey.&lt;/p&gt;
+&lt;p&gt;I was born in &lt;a href=&quot;&quot;&gt;1991&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I'm from &lt;a href=&quot;http://en.wikipedia.org/wiki/Prampram&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Prampram&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Ghana&quot; title=&quot;Ghana - Wikipedia, the free encyclopedia&quot;&gt;Ghana&lt;/a&gt;, but spent the first three-quarters of my life in &lt;a href=&quot;https://en.wikipedia.org/wiki/Bonny,_Nigeria&quot;&gt;Bonny&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Nigeria&quot; target=&quot;_blank&quot; title=&quot;Nigeria - Wikipedia, the free encyclopedia&quot;&gt;Nigeria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I believe in God and I'm learning to live like Jesus Christ.&lt;/p&gt;
+&lt;p&gt;I am a minimalist at heart.&lt;/p&gt;
+&lt;p&gt;I am a computer programmer.&lt;/p&gt;
+&lt;p&gt;I like creating things with &lt;a href=&quot;http://davidlartey.github.io&quot; target=&quot;_blank&quot; title=&quot;My projects&quot;&gt;code&lt;/a&gt;, occasionally with words: this blog, &lt;a href=&quot;https://soundcloud.com/davidlartey&quot; target=&quot;_blank&quot; title=&quot;My SoundCloud profile&quot;&gt;soundcloud&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I &lt;a href=&quot;#&quot; title=&quot;My reading list&quot;&gt;read&lt;/a&gt;, listen to new songs, watch &lt;a href=&quot;https://arsenal.com/home&quot; title=&quot;The Official Website of Arsenal Football Club&quot;&gt;Arsenal&lt;/a&gt; and daydream.&lt;/p&gt;
+&lt;p&gt;Thanks.&lt;/p&gt;
+&lt;h2&gt;Colophon&lt;/h2&gt;
+&lt;p&gt;This blog is built with &lt;a href=&quot;http://github.com/davidlartey/flassgee&quot; target=&quot;_blank&quot; title=&quot;Welcome to an Easier Way to Blog&quot;&gt;FlaSSGee&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Zen Habits' &lt;a href=&quot;http://zenhabits.net/theme/&quot; target=&quot;_blank&quot;&gt;zh2&lt;/a&gt; was used for the site's look.&lt;/p&gt;</content>
+  </entry>
+</feed>

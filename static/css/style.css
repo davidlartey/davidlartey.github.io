@@ -1,8 +1,16 @@
-/********************************************************************************************
+/*
+Theme Name: zh2
+Theme URI: http://zenhabits.net/theme/
+Author: Leo Babauta
+Author URI: http://leobabauta.com
+Description: A minimalist, content-focused theme.
+Version: 2
+License: Uncopyrighted
+License URI: http://zenhabits.net/open-source-blogging-feel-free-to-steal-my-content/
 
-Breathe v1 by David Lartey
-
-*********************************************************************************************/
+This theme is uncopyrighted.
+Do whatever you'd like with it.
+*/
 
 /* css reset */
 
@@ -51,7 +59,8 @@ table {
 }
 /* end css reset */
 
-@media all {
+@media all { 
+	#wp-admin-bar-updates { display: none }
 	body {
 	    font: normal 100% Open Sans,Helvetica,sans-serif;
 	    background-color: #fff;
@@ -272,9 +281,6 @@ table {
 	    font-size: 2em;
 	    line-height: 2.5em;
 	    color: #dedede;
-	    /*David*/
-	    margin-top: 30px;
-	    margin-bottom: 40px;
 	}
 	/* previous & next posts at bottom */
 	.navigation { margin-bottom: 3em }
@@ -311,75 +317,23 @@ table {
 	.all_posts a { color: #d3d3d3 }
 	.all_posts a:visited { color: #d3d3d3 }
 	.all_posts a:hover { color: #666 }
-	/* Introduction */
-	.introduction h1 {
-		margin-top: 0px;
-		font-size: 4em;
-	    font-weight: bold;
-	    color: #333;
-	    letter-spacing: .01em;
-	    margin: 0 .05em 0 0;
-	    text-align: center;
-	    font-family: acta-display, Georgia, Times, serif;
-	}
-	.introduction h1 a:link {
-	    text-decoration: none;
-	    border-width: 0 0 1px 0;
-	    border-style: none none solid none;
-	    border-color: #c0c0c0;
-	}
-	.introduction h1 a:visited {
-	    text-decoration: none;
-	    border-width: 0 0 1px 0;
-	    border-style: none none solid none;
-	    border-color: #c0c0c0;
-	}
-	.introduction h2.no-margin-top {
-		margin-top: .2em;
-	}
-	.introduction h2.padding {
-		padding-top: .2em;
-	}
-
-	/* Projects */
-	.projects {
-		margin: 3em 0;
-	}
-	.projects h3 {
-		text-align: left;
-	}
-	.projects a {
-		text-decoration: none;
-		border-width: 0 0 1px 0;
-		border-style: none none solid none;
-		border-color: #c0c0c0;
-	}
 	/* footer text */
-	.footer-introduction {
-		margin-top: 2em;
-	}
-	.footer-introduction p {
-	    font-size: 24px;
-	    letter-spacing: .2em;
-	    text-align: center;
-	    font-family: Open Sans,Helvetica,sans-serif;
-	    color: #333;
-	    margin-top: 0px;
-	}
-	.footer-introduction a,
-	.footer-introduction > h1 > a { 
-		font-size: 30px;
-		color: #333;
-		border-bottom: 1px solid #c0c0c0;
-	}
 	.footer p {
-		padding-top: 1em;
-	    font-size: 24px;
+	    font-size: .8em;
 	    letter-spacing: .2em;
-	    text-align: center;
-	    font-family: Open Sans,Helvetica,sans-serif;
+	    text-transform: lowercase;
 	    color: #333;
-	    margin-top: 0px;
+	    padding: 0;
+	    margin: 0;
+	    margin-left: 0;
+	    padding-left: 0;
+	    font-family: Open Sans,Helvetica,sans-serif;
+	}
+	.footer a { color: #666 }
+	/* for archives page */
+	#arc {
+	    overflow: hidden;
+	    margin: 0 1em 2em .4em;
 	}
 
 ol.commentlist{
