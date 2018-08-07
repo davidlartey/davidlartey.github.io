@@ -1,0 +1,7 @@
+{
+	"scrips": {},
+	"devDependencies": {
+		"autoprefixer": "^9.1.0",
+		"tailwindcss": "^0.6.4"
+	}
+}
