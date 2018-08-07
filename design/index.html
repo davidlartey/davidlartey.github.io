@@ -9,18 +9,48 @@
 
 		<style type="text/css">	
 		h1 {
-			font-size: 3.5em;
+			/* font-size: 3.5em; */
+		}
+		a,
+		a:hover,
+		a:visited,
+		a:active {
+			color: #7f0011;
+			text-decoration: none;
+		}
+		.container {
+			max-width: 800px;
+			padding: 40px 20px 0;
 		}
 		header {
-			background-color: gray;
+			background-color: #7f0011; /*#cf001c;*/
 			border-bottom: 1px solid;
+			color: #FFF;
 			padding-top: 75px;
 			padding-bottom: 75px;
 		}
-		header > .container {
-			padding: 40px;
+		header a,
+		header a:hover,
+		header a:visited,
+		header a:active {
+			color: #FFF;
 		}
-		header ul {
+		header img.header-image {
+			width: 200px;
+			height: 200px;
+		}
+		header div.header-top {
+			height: 100%;
+			margin-bottom: -20px;
+		}
+		header div.header-top h1.title {
+			font-weight: bolder;
+			margin-top: -9px;
+		}
+		header div.header-top h1.sub-title {
+			font-weight: lighter;
+		}
+		header ul.header-footer {
 			padding: 0;
 		}
 		header ul li {
@@ -31,24 +61,37 @@
 		header ul a {
 			color: #FFF;
 		}
-		header ~ div.container {
-			padding: 40px 20px;
-		}
 		.section {
-			margin-bottom: 30px;
+			margin-bottom: 60px;
 		}
 		.section-header {
-			border-bottom: 2px solid;
+			border-bottom: 2px solid #ffd1d7;
 			margin-bottom: 40px;
+			padding-bottom: 15px;
 		}
 		.section-header h4 {
-			border-bottom: 2px solid;
+			border-bottom: 5px solid #7f0011;
 			display: inline;
 			margin-bottom: -2px;
+			padding-bottom: 13px;
 		}
 		.section-header a {
-			display: inline;
 			float: right;
+		}
+		.section-header a:hover,
+		.section-header a:active,
+		.section-header a:visited {
+			text-decoration: underline;
+		}
+		.card a {
+			color: inherit;
+		}
+		.card .card-text a {
+			color: #7f0011;
+			text-decoration: underline;
+		}
+		footer {
+			min-height: 100px;
 		}
 		</style>
 	</head>
@@ -56,13 +99,15 @@
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-3">
-						<img src="http://via.placeholder.com/190x190" class="img-responsive img-thumbnail">
+					<div class="col-sm-4">
+						<img src="assets/img/header-pic-main.jpg" class="header-image img-responsive img-thumbnail">
 					</div>
-					<div class="col-sm-9" style="height: 200px;">
-						<h1>David Lartey</h1>
-						<h3>I code. I sing. I love. I live. #LifeIsBeautiful</h3>
-						<ul>
+					<div class="col-sm-8" style="height: 200px;">
+						<div class="header-top">
+							<h1 class="title">David Lartey</h1>
+							<h1 class="sub-title">#LifeIsBeautiful</h4>
+						</div>
+						<ul class="header-footer">
 							<li>
 								<a href="#">
 									<i class="fab fa-2x fa-linkedin"></i>
@@ -104,41 +149,43 @@
 			<div class="section">
 				<div class="section-header">
 					<h4>Thougths</h4>
-					<a href="#">View More</a>
+					<a href="#">Read my Blog</a>
 				</div>
 				<div class="section-content">
 					<div class="row">
-						<div class="col-sm-4"><a href="#">
-								<div>
-									<img src="http://via.placeholder.com/100x100" class="img-responsive img-thumbnail">
-								</div>
-								<div>
-									<h3>Title</h3>
-									<div>
-										<p><a href="">location.com</a></p>
+						<div class="col-sm-4">
+							<div class="card">
+								<a href="#">
+									<img src="http://via.placeholder.com/200x100" class="card-img-top">
+									<div class="card-body">
+										<h3 class="card-title">Title</h3>
+										<p class="card-text"><a href="">location.com</a></p>
 									</div>
-								</div>
-							</a>
+								</a>
+							</div>
 						</div>
-						<div class="col-sm-4"><a href="#">
-								<div></div>
-								<div>
-									<h3></h3>
-									<div>
-										<p><a href=""></a></p>
+						<div class="col-sm-4">
+							<div class="card">
+								<a href="#">
+									<img src="http://via.placeholder.com/200x100" class="card-img-top">
+									<div class="card-body">
+										<h3 class="card-title">Title</h3>
+										<p class="card-text"><a href="">location.com</a></p>
 									</div>
-								</div>
-							</a>
+								</a>
+							</div>
 						</div>
-						<div class="col-sm-4"><a href="#">
-								<div></div>
-								<div>
-									<h3></h3>
-									<div>
-										<p><a href=""></a></p>
+						<div class="col-sm-4">
+							<div class="card">
+								<a href="#">
+									<img src="http://via.placeholder.com/200x100" class="card-img-top">
+									<div class="card-body">
+										<h3 class="card-title">Title</h3>
+										<p class="card-text"><a href="">location.com</a></p>
 									</div>
-								</div>
-							</a></div>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -150,43 +197,40 @@
 				<div class="section-content">
 					<div class="row">
 						<div class="col-sm-4">
-							<a href="#">
-								<div>
-									<img src="http://via.placeholder.com/100x100" class="img-responsive img-thumbnail">
-								</div>
-								<div>
-									<h3>Title</h3>
-									<div>
-										<p><a href="">location.com</a></p>
+							<div class="card">
+								<a href="#">
+									<img src="http://via.placeholder.com/200x100" class="card-img-top">
+									<div class="card-body">
+										<h3 class="card-title">GnG Help</h3>
+										<p class="card-text">Service Organisations awareness platform.</p>
+										<p class="card-text"><a href="" target="_blank">gnghelp.org</a></p>
 									</div>
-								</div>
-							</a>
+								</a>
+							</div>
 						</div>
 						<div class="col-sm-4">
-							<a href="#">
-								<div>
-									<img src="http://via.placeholder.com/100x100" class="img-responsive img-thumbnail">
-								</div>
-								<div>
-									<h3>Title</h3>
-									<div>
-										<p><a href="">location.com</a></p>
+							<div class="card">
+								<a href="#">
+									<img src="http://via.placeholder.com/200x100" class="card-img-top">
+									<div class="card-body">
+										<h3 class="card-title">LDT<em>!</em></h3>
+										<p class="card-text">Social productivity and collaboration app.</p>
+										<p class="card-text"><a href="#" target="_blank">ldtapp.com</a></p>
 									</div>
-								</div>
-							</a>
+								</a>
+							</div>
 						</div>
 						<div class="col-sm-4">
-							<a href="#">
-								<div>
-									<img src="http://via.placeholder.com/100x100" class="img-responsive img-thumbnail">
-								</div>
-								<div>
-									<h3>Title</h3>
-									<div>
-										<p><a href="">location.com</a></p>
+							<div class="card">
+								<a href="#">
+									<img src="http://via.placeholder.com/200x100" class="card-img-top">
+									<div class="card-body">
+										<h3 class="card-title">Project Name</h3>
+										<p class="card-text">Project one liner</p>
+										<p class="card-text"><a href="" target="_blank">location.com</a></p>
 									</div>
-								</div>
-							</a>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -194,7 +238,7 @@
 		</div>
 
 		<footer class="container text-center">
-			<a href="#">Built with <3 and a Vue</a>
+			<a href="#">&hearts; <img src="assets/img/GH.png" /></a>
 		</footer>
 	</body>
 </html>
