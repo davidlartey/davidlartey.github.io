@@ -3,6 +3,8 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import { ArticleInfo } from './../../interfaces/article';
 import Markdown from './../../components/markdown';
+import Link from 'next/link';
+import Breadcrumbs from '../../components/breadcrumbs';
 
 interface IProps {
   article: ArticleInfo
@@ -10,9 +12,28 @@ interface IProps {
 
 const Article: FunctionComponent<IProps> = ({ article }) => {
   return (
-    <div>
-      <h1>{article.meta.title}</h1>
-      <div>
+    <div className='px-4 py-10 max-w-3xl mx-auto'>
+      <Breadcrumbs 
+        links={[
+          {
+            title: 'Home',
+            href: '/'
+          },
+          {
+            title: 'All Articles',
+            href: '/articles'
+          },
+          {
+            title: article.meta.title
+          }
+        ]}
+      />
+
+      <h1 className='inline-block text-gray-900 font-medium text-2xl pt-10'>
+        {article.meta.title}
+      </h1>
+      
+      <div className='text-gray-800 mt-6 pb-8'>
         <Markdown content={article.content} />
       </div>
     </div>

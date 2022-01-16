@@ -8,7 +8,6 @@ interface IProps {
 }
 
 const MarkdownComponent: FunctionComponent<IProps> = ({ content }) => {
-  console.log({ content })
   // const components: Partial<NormalComponents & SpecialComponents> = {
   //   code({node, inline, className, children, ...props}) {
   //     const match = /language-(\w+)/.exec(className || '');
@@ -33,7 +32,6 @@ const MarkdownComponent: FunctionComponent<IProps> = ({ content }) => {
 
   return (
     <div className="markdown-body">
-      {/* components={components}  */}
       <ReactMarkdown children={content} />
     </div>
   );

@@ -10,12 +10,18 @@ interface IProps {
 const Card: FunctionComponent<IProps> = ({ article, type }) => {
   const baseUrl = type === 'article' ? 'articles' : 'projects'
 
-  return <Link href={`/${baseUrl}/${article.slug}`}>
+  return (
     <div>
-      <h1>{article.title}</h1>
-      <p>{article.description}</p>
+      <h1 className='inline-block text-gray-900 font-medium text-xl'>
+        <Link href={`/${baseUrl}/${article.slug}`}>
+          {article.title}
+        </Link>
+      </h1>
+      <p className='text-gray-800 mt-2 pb-8'>
+        {article.description}
+      </p>
     </div>
-  </Link>;
+  );
 };
 
 export default Card;
