@@ -17,11 +17,11 @@ const Article: FunctionComponent<IProps> = ({ article }) => {
         links={[
           {
             title: 'Home',
-            href: '/'
+            href: new URL('https://dbilovd.dev/')
           },
           {
             title: 'All Articles',
-            href: '/articles'
+            href: new URL('https://dbilovd.dev/articles')
           },
           {
             title: article.meta.title

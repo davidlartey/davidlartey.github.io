@@ -16,11 +16,11 @@ const Project: FunctionComponent<IProps> = ({ project }) => {
         links={[
           {
             title: 'Home',
-            href: '/'
+            href: new URL('https://dbilovd.dev/')
           },
           {
             title: 'All Projects',
-            href: '/projects'
+            href: new URL('https://dbilovd.dev/projects')
           },
           {
             title: project.meta.title
@@ -55,8 +55,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ ...context }) {
   const { slug } = context.params;
-
-  console.log({ slug, context })
 
   const content = fs
       .readFileSync(`content/projects/${slug}.md`)

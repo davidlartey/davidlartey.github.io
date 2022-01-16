@@ -24,6 +24,7 @@ const Home: FunctionComponent<IProps> = ({ articles, about, projects }) => {
             src={pic}
             width={300}
             height={300}
+            alt="David Lartey standing on the Elmina Castle"
             className='rounded-md'
           />
         </div>
@@ -95,7 +96,7 @@ const Home: FunctionComponent<IProps> = ({ articles, about, projects }) => {
           >
             Articles
           </h1>
-          <a href='/articles'>More articles</a>
+          <Link href='/articles'>More articles</Link>
         </div>
         {
           articles.map((article, i) => (
@@ -122,7 +123,7 @@ const Home: FunctionComponent<IProps> = ({ articles, about, projects }) => {
           >
             Projects
           </h1>
-          <a href='/projects'>More projects</a>
+          <Link href='/projects'>More projects</Link>
         </div>
         {
           projects.map((project, i) => (

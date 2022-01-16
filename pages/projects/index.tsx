@@ -16,7 +16,7 @@ const PRojectsHome: FunctionComponent<IProps> = ({ projects }) => {
         links={[
           {
             title: 'Home',
-            href: '/'
+            href: new URL('https://dbilovd.dev/')
           },
           {
             title: 'All Projects'
