@@ -139,7 +139,17 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Catalyst / Andela',
+      company: 'NearForGood',
+      title: 'Technical Founder',
+      logo: logoPlanetaria,
+      start: '2019',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
+    },
+    {
+      company: 'Catalyst (Andela)',
       title: 'Senior Frontend Engineer',
       logo: logoPlanetaria,
       start: '2021',
@@ -149,10 +159,20 @@ function Resume() {
       },
     },
     {
-      company: 'NearForGood',
-      title: 'Technical Founder',
+      company: 'PickupMusic (TopTal)',
+      title: 'Software Engineer',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2021',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
+    },
+    {
+      company: '',
+      title: 'Software Engineer',
+      logo: logoPlanetaria,
+      start: '2021',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
@@ -178,7 +198,7 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Some Places I've Been Privileged to Work At</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -194,21 +214,6 @@ function Resume() {
               <dt className="sr-only">Role</dt>
               <dd className="text-xs text-zinc-500 dark:text-zinc-400">
                 {role.title}
-              </dd>
-              <dt className="sr-only">Date</dt>
-              <dd
-                className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-                aria-label={`${role.start.label ?? role.start} until ${
-                  role.end.label ?? role.end
-                }`}
-              >
-                <time dateTime={role.start.dateTime ?? role.start}>
-                  {role.start.label ?? role.start}
-                </time>{' '}
-                <span aria-hidden="true">—</span>{' '}
-                <time dateTime={role.end.dateTime ?? role.end}>
-                  {role.end.label ?? role.end}
-                </time>
               </dd>
             </dl>
           </li>
@@ -307,7 +312,6 @@ export default function Home({ articles }) {
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
-            <Resume />
           </div>
         </div>
       </Container>
