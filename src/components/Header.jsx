@@ -14,8 +14,8 @@ const menuItems = [
     title: 'About'
   },
   {
-    href: '/articles',
-    title: 'Articles'
+    href: '/thoughts',
+    title: 'Thoughts'
   },
   // {
   //   href: '/projects',
