@@ -272,7 +272,7 @@ export default function Home({ articles }) {
             Beauty savourer, software engineer, social entrepreneur, songwriter and amateur nature photographer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            My name is David, a software engineer and a social entrepreneur based in Accra, Ghana. I run <a href="https://nearforgood.com" target="_blank">Near For Good</a>, where we craft technologies that bring out the full potential of people in the developing world.
+            My name is David, a man of many interests, based in Accra, Ghana. I run <a href="https://nearforgood.com" target="_blank">Near For Good</a>, where we build technologies that bring out the full potential of people in the developing world.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
