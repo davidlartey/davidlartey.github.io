@@ -17,10 +17,10 @@ const menuItems = [
     href: '/thoughts',
     title: 'Thoughts'
   },
-  // {
-  //   href: '/projects',
-  //   title: 'Projects'
-  // },
+  {
+    href: '/projects',
+    title: 'Projects'
+  },
   // {
   //   href: '/speaking',
   //   title: 'Speaking'
@@ -28,7 +28,7 @@ const menuItems = [
   // {
   //   href: '/uses',
   //   title: 'Uses'
-  // }
+  // }a
 ]
 
 function CloseIcon(props) {

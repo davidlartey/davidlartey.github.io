@@ -3,47 +3,42 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+// import logoAnimaginary from '@/images/logos/animaginary.svg'
+// import logoCosmos from '@/images/logos/cosmos.svg'
+// import logoHelioStream from '@/images/logos/helio-stream.svg'
+// import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
+import logoMusic from '@/images/logos/music.jpeg'
+import logoNFG from '@/images/logos/nfg.jpeg'
+import logoGrow from '@/images/logos/grow.png'
+import logoTLIB from '@/images/logos/tlib.png'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Grow',
+    description:
+      "A better way for African parents to fund the future of their children, paying for educational expenses in instalments.",
+    link: { href: 'https://usegrow.co', label: 'usegrow.co' },
+    logo: logoGrow,
+  },
+  {
+    name: 'Near For Good',
+    description:
+      "Software solutions for giving people in the developing world access to resources that they wouldn't get access to otherwise.",
+    link: { href: 'https://nearforgood.com', label: 'nearforgood.com' },
+    logo: logoNFG,
+  },
+  {
+    name: 'Dbilovd Music',
+    description: 'My thoughts and lessons about life in musical and poetic form.',
+    link: { href: 'https://dbilovd.com', label: 'dbilovd.com' },
+    logo: logoMusic,
+  },
+  {
+    name: 'This Life is Beautiful',
     description:
       'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
-  },
-  {
-    name: 'Animaginary',
-    description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
-  },
-  {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+    link: { href: 'https://tlibeautiful.com', label: 'tlibeautiful.com' },
+    logo: logoTLIB,
   },
 ]
 
@@ -65,12 +60,12 @@ export default function Projects() {
         <title>Projects - David Lartey</title>
         <meta
           name="description"
-          content="Things I’ve made trying to put my dent in the universe."
+          content="The things I build are expressions of my purpose here"
         />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        title="The things I build are expressions of my purpose here"
+        intro="I have worked on tons of little projects over the years. I am still working on more. Here are a few that would introduce you to what I do. So if you see something that piques your interest, check it out and if you have ideas for how it can be improved, please do share."
       >
         <ul
           role="list"
@@ -82,12 +77,12 @@ export default function Projects() {
                 <Image
                   src={project.logo}
                   alt=""
-                  className="h-8 w-8"
+                  className="h-8 w-8 rounded-full bg-zinc-100 object-cover dark:bg-zinc-800"
                   unoptimized
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href}>{project.name}</Card.Link>
+                <Card.Link href={project.link.href} target="__blank">{project.name}</Card.Link>
               </h2>
               <Card.Description>{project.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
