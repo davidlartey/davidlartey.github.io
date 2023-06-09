@@ -17,10 +17,10 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+// import logoAirbnb from '@/images/logos/airbnb.svg'
+// import logoFacebook from '@/images/logos/facebook.svg'
+// import logoPlanetaria from '@/images/logos/planetaria.svg'
+// import logoStarbucks from '@/images/logos/starbucks.svg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
@@ -136,96 +136,96 @@ function Newsletter() {
   )
 }
 
-function Resume() {
-  let resume = [
-    {
-      company: 'NearForGood',
-      title: 'Technical Founder',
-      logo: logoPlanetaria,
-      start: '2019',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
-    },
-    {
-      company: 'Catalyst (Andela)',
-      title: 'Senior Frontend Engineer',
-      logo: logoPlanetaria,
-      start: '2021',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
-    },
-    {
-      company: 'PickupMusic (TopTal)',
-      title: 'Software Engineer',
-      logo: logoPlanetaria,
-      start: '2021',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
-    },
-    {
-      company: '',
-      title: 'Software Engineer',
-      logo: logoPlanetaria,
-      start: '2021',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
-    },
-    {
-      company: 'mPharma',
-      title: 'Senior Fullstack Engineer',
-      logo: logoAirbnb,
-      start: '2020',
-      end: '2021',
-    },
-    {
-      company: 'IT Consortium',
-      title: 'Software Engineer',
-      logo: logoFacebook,
-      start: '2015',
-      end: '2019',
-    },
-  ]
+// function Resume() {
+//   let resume = [
+//     {
+//       company: 'NearForGood',
+//       title: 'Technical Founder',
+//       logo: logoPlanetaria,
+//       start: '2019',
+//       end: {
+//         label: 'Present',
+//         dateTime: new Date().getFullYear(),
+//       },
+//     },
+//     {
+//       company: 'Catalyst (Andela)',
+//       title: 'Senior Frontend Engineer',
+//       logo: logoPlanetaria,
+//       start: '2021',
+//       end: {
+//         label: 'Present',
+//         dateTime: new Date().getFullYear(),
+//       },
+//     },
+//     {
+//       company: 'PickupMusic (TopTal)',
+//       title: 'Software Engineer',
+//       logo: logoPlanetaria,
+//       start: '2021',
+//       end: {
+//         label: 'Present',
+//         dateTime: new Date().getFullYear(),
+//       },
+//     },
+//     {
+//       company: '',
+//       title: 'Software Engineer',
+//       logo: logoPlanetaria,
+//       start: '2021',
+//       end: {
+//         label: 'Present',
+//         dateTime: new Date().getFullYear(),
+//       },
+//     },
+//     {
+//       company: 'mPharma',
+//       title: 'Senior Fullstack Engineer',
+//       logo: logoAirbnb,
+//       start: '2020',
+//       end: '2021',
+//     },
+//     {
+//       company: 'IT Consortium',
+//       title: 'Software Engineer',
+//       logo: logoFacebook,
+//       start: '2015',
+//       end: '2019',
+//     },
+//   ]
 
-  return (
-    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
-      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Some Places I've Been Privileged to Work At</span>
-      </h2>
-      <ol className="mt-6 space-y-4">
-        {resume.map((role, roleIndex) => (
-          <li key={roleIndex} className="flex gap-4">
-            {/* <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
-            </div> */}
-            <dl className="flex flex-auto flex-wrap gap-x-2">
-              <dt className="sr-only">Company</dt>
-              <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                {role.company}
-              </dd>
-              <dt className="sr-only">Role</dt>
-              <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-                {role.title}
-              </dd>
-            </dl>
-          </li>
-        ))}
-      </ol>
-      {/* <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button> */}
-    </div>
-  )
-}
+//   return (
+//     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+//       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+//         <BriefcaseIcon className="h-6 w-6 flex-none" />
+//         <span className="ml-3">Some Places I've Been Privileged to Work At</span>
+//       </h2>
+//       <ol className="mt-6 space-y-4">
+//         {resume.map((role, roleIndex) => (
+//           <li key={roleIndex} className="flex gap-4">
+//             {/* <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+//               <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
+//             </div> */}
+//             <dl className="flex flex-auto flex-wrap gap-x-2">
+//               <dt className="sr-only">Company</dt>
+//               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+//                 {role.company}
+//               </dd>
+//               <dt className="sr-only">Role</dt>
+//               <dd className="text-xs text-zinc-500 dark:text-zinc-400">
+//                 {role.title}
+//               </dd>
+//             </dl>
+//           </li>
+//         ))}
+//       </ol>
+//       {/* <Button href="#" variant="secondary" className="group mt-6 w-full">
+//         Download CV
+//         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+//       </Button> */}
+//     </div>
+//   )
+// }
 
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
