@@ -23,7 +23,7 @@ const projects = [
   {
     name: 'Near For Good',
     description:
-      "Software solutions for giving people in the developing world access to resources that they wouldn't get access to otherwise.",
+      "Software solutions giving people in the developing world access to resources that they wouldn't get access to otherwise.",
     link: { href: 'https://nearforgood.com', label: 'nearforgood.com' },
     logo: logoNFG,
   },
@@ -36,7 +36,7 @@ const projects = [
   {
     name: 'This Life is Beautiful',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
+      'My journey of finding, enjoying and talking about the beauties of life, from the mundane to the extraordinary',
     link: { href: 'https://tlibeautiful.com', label: 'tlibeautiful.com' },
     logo: logoTLIB,
   },
@@ -60,11 +60,11 @@ export default function Projects() {
         <title>Projects - David Lartey</title>
         <meta
           name="description"
-          content="The things I build are expressions of my purpose here"
+          content="The things I build are expressions of the purpose for my time here."
         />
       </Head>
       <SimpleLayout
-        title="The things I build are expressions of my purpose here"
+        title="The things I build are expressions of the purpose for my time here."
         intro="I have worked on tons of little projects over the years. I am still working on more. Here are a few that would introduce you to what I do. So if you see something that piques your interest, check it out and if you have ideas for how it can be improved, please do share."
       >
         <ul
