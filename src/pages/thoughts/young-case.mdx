@@ -1,0 +1,37 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import sandImage from '@/images/photos/young-case/sand.jpeg'
+import seaImage from '@/images/photos/young-case/sea.jpeg'
+
+export const meta = {
+  author: 'David Lartey',
+  date: '2023-09-01',
+  title: 'How Old Is My Case?',
+  description: 'A poem inspired by a place where the Namib desert meets the Atlantic ocean'
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+> This poem and photos are part of a photobook project I am working on. See original post and more pictures at <a target="_blank" href="https://www.tlibeautiful.com/stories/how-old-is-my-case">TLIBeautiful.com</a>
+
+There is a place  
+a thousand miles long  
+where the sun and the sea  
+the sand and the skies  
+have been holding a kiss  
+80 million years strong  
+how old is my case?  
+
+<Image
+  className="w-full"
+  src={sandImage}
+  alt=""
+  priority
+/>
+
+<Image
+  className="w-full"
+  src={seaImage}
+  alt=""
+  priority
+/>
