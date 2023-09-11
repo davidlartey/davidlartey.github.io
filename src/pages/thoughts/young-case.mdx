@@ -1,5 +1,6 @@
 import { ArticleLayout } from '@/components/ArticleLayout'
 import Image from 'next/image'
+import dunesImage from '@/images/photos/young-case/dunes.jpeg'
 import sandImage from '@/images/photos/young-case/sand.jpeg'
 import seaImage from '@/images/photos/young-case/sea.jpeg'
 
@@ -21,6 +22,13 @@ the sand and the skies
 have been holding a kiss  
 80 million years strong  
 how old is my case?  
+
+<Image
+  className="w-full"
+  src={dunesImage}
+  alt=""
+  priority
+/>
 
 <Image
   className="w-full"
