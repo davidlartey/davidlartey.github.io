@@ -1,4 +1,7 @@
 import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import allTime from '@/images/photos/wonder-creating/all-time.png'
+import lastMonth from '@/images/photos/wonder-creating/last-month.png'
 
 export const meta = {
   author: 'David Lartey',
@@ -10,6 +13,12 @@ export const meta = {
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
+
+<Image
+  src={allTime}
+  alt=""
+  priority
+/>
 
 It amazes me every time I see something that exists now where nothing existed before. One day there was no me but at some point in history, I came to be. People, objects, ideas, songs, and even this blog post. It is more amazing when I am the one that creates that thing.
 
@@ -24,3 +33,8 @@ If you do any form of creative work, I’m sure you know this feeling. I hope yo
 > See original post and similar stories at my travel blog <a target="_blank" href="https://www.tlibeautiful.com">TLIBeautiful.com</a>
 
 
+<Image
+  src={lastMonth}
+  alt=""
+  priority
+/>
