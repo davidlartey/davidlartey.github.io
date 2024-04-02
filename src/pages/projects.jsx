@@ -14,6 +14,13 @@ import logoTLIB from '@/images/logos/tlib.png'
 
 const projects = [
   {
+    name: 'Crayete',
+    description:
+      "An Operating System for creatives to manage the business side of their creative work",
+    link: { href: 'https://usecr8.com', label: 'usecr8.com' },
+    logo: 'https://usecr8.com/vite/assets/logo-s6I4AEsv.png',
+  },
+  {
     name: 'Grow',
     description:
       "A better way for African parents to fund the future of their children, paying for educational expenses in instalments.",
@@ -78,6 +85,8 @@ export default function Projects() {
                   src={project.logo}
                   alt=""
                   className="h-8 w-8 rounded-full bg-zinc-100 object-cover dark:bg-zinc-800"
+                  width="8"
+                  height="8"
                   unoptimized
                 />
               </div>
